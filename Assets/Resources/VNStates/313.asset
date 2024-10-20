@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db71558db89c3404eb3f63a8ea73db36, type: 3}
+  m_Name: 313
+  m_EditorClassIdentifier: 
+  stateID: 313
+  LeftTalk: 0
+  RightTalk: 1
+  LeftName: 
+  RightName: Casey
+  Text: 'The fact of the matter is that you know in your heart what''s going on.
+    Your brain does too, but it isn''t letting you say it. '
+  buttonText:
+  - 
+  - 
+  - 
+  hasChoices: 0
+  nextStates: 3a010000000000000000000000000000

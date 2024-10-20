@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: State 102
   m_EditorClassIdentifier: 
   stateID: 102
-  LeftTalk: 1
+  LeftTalk: 0
   RightTalk: 0
-  LeftName: Nate
-  RightName: Keshauni
-  Text: Uhh... I'll need to get back to you on that one.
+  LeftName: 
+  RightName: 
+  Text: I open the door as usual, meeting eyes with who will be the lucky student.
+    I can't say I've met them before, but they seem oddly familiar...
   buttonText:
   - 
   - 
   - 
   hasChoices: 0
-  nextStates: 02000000000000000000000000000000
+  nextStates: 67000000000000000000000000000000

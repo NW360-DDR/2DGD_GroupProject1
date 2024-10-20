@@ -15,12 +15,13 @@ MonoBehaviour:
   stateID: 103
   LeftTalk: 1
   RightTalk: 0
-  LeftName: Nate
-  RightName: Keshauni
-  Text: '... SO, KESHAUNI, how''s the, how''s the graphics going? '
+  LeftName: Therapist
+  RightName: 
+  Text: Good afternoon, pleased to meet you. I'm Casey Davis, to whom do I owe the
+    pleasure?
   buttonText:
   - 
   - 
   - 
   hasChoices: 0
-  nextStates: 02000000000000000000000000000000
+  nextStates: 68000000000000000000000000000000

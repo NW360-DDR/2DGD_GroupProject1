@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateID: 1
   LeftTalk: 0
-  RightTalk: 1
-  LeftName: Nate
-  RightName: Keshauni
-  Text: You're sure about that? Everything works, just like that?
+  RightTalk: 0
+  LeftName: 
+  RightName: 
+  Text: I don't know if I'll miss it. But I'm definitely done with being a therapist.
   buttonText:
-  - Definitely!
-  - Uhh...
-  - Enough about that, how's the graphics coming along?
-  hasChoices: 1
-  nextStates: 00000000650000006600000067000000
+  - 
+  - 
+  - 
+  hasChoices: 0
+  nextStates: 02000000020000000200000002000000

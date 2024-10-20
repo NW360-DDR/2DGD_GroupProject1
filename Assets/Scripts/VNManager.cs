@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using Unity.UI;
-using System.Linq;
+using System.IO;
+using UnityEditor;
+using Unity.VisualScripting;
 
 public class VNManager : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class VNManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // TO-DO: Initialize our buttons, text and all that with state zero.
+        // This one line is for when the script is ever updated for any reason.
+        //AssetDatabase.Refresh();
         states = Resources.LoadAll<TextSO>("VNStates");
         NextState(0);
     }
@@ -42,6 +44,7 @@ public class VNManager : MonoBehaviour
         }
         
         TextSO temp = states[tempID];
+        Debug.Log("hasChoices = " + temp.hasChoices);
   
         LeftSide.SetActive(temp.LeftTalk);
         RightSide.SetActive(temp.RightTalk);
@@ -57,10 +60,6 @@ public class VNManager : MonoBehaviour
         optionA.text = temp.buttonText[0];
         optionB.text = temp.buttonText[1];
         optionC.text = temp.buttonText[2];
-        for (int i= 0; i < 3; i++)
-        {
-            Options.transform.GetChild(i).gameObject.SetActive(temp.hasChoices);
-        }
         Options.SetActive(temp.hasChoices);
         Next.SetActive(!temp.hasChoices);
         speech.text = temp.Text;
@@ -68,8 +67,23 @@ public class VNManager : MonoBehaviour
 
     public void Buttons(int yee)
     {
+        if (nextStates[yee] == 999)
+        {
+            StartCoroutine("QuitGame");
+        }
+        else if (nextStates[yee] == 1000)
+        {
+            Application.Quit();
+            Debug.Log("Quitting Game");
+        }
         // Next should always call 0, then A = 1, B = 2, and C = 3.
-        NextState(nextStates[yee]);
+        else { NextState(nextStates[yee]); }
+    }
+
+    IEnumerator QuitGame()
+    {
+        yield return new WaitForSeconds(7);
+        Application.Quit();
     }
 
 }

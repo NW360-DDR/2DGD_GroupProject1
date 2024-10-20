@@ -14,12 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateID: 2
   LeftTalk: 0
-  RightTalk: 1
-  LeftName: Nate
-  RightName: Keshauni
-  Text: ... Right. You go ahead and explain your way out of that one. Since I'm not
-    the one who wrote this, maybe the real Keshauni can say what she's been up to
-    instead of a text wall.
+  RightTalk: 0
+  LeftName: 
+  RightName: 
+  Text: "Not sure when it stopped clicking for me. Couldn't tell you how many people
+    have come through these doors, and who knows how many of them actually listened.\r"
   buttonText:
   - 
   - 

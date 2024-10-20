@@ -15,13 +15,13 @@ MonoBehaviour:
   stateID: 3
   LeftTalk: 1
   RightTalk: 0
-  LeftName: Nate
-  RightName: Keshauni
-  Text: For the sake of showcasing that this DOES work, I've set it to loop through
-    this dialogue endlessly.
+  LeftName: Therapist
+  RightName: 
+  Text: ... But it's for the best. I'm no good to any of them if I can't even convince
+    myself I care.
   buttonText:
   - 
   - 
   - 
   hasChoices: 0
-  nextStates: 00000000000000000000000000000000
+  nextStates: 04000000000000000000000000000000

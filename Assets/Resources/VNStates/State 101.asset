@@ -15,12 +15,12 @@ MonoBehaviour:
   stateID: 101
   LeftTalk: 1
   RightTalk: 0
-  LeftName: Nate
+  LeftName: Therapist
   RightName: 
-  Text: Well, I guess so, if this is showing up on the screen.
+  Text: Yes, even if it's my last client, I shouldn't change my ways just yet.
   buttonText:
   - 
   - 
   - 
   hasChoices: 0
-  nextStates: 02000000000000000000000000000000
+  nextStates: 66000000000000000000000000000000

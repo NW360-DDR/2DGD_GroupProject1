@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db71558db89c3404eb3f63a8ea73db36, type: 3}
   m_Name: State
   m_EditorClassIdentifier: 
-  stateID: 0
-  LeftTalk: 1
+  stateID: 8675309
+  LeftTalk: 0
   RightTalk: 0
-  LeftName: Nate
-  RightName: Keshauni
-  Text: Alright, I think I have the Visual Novel script down. Mostly.
+  LeftName: 
+  RightName: 
+  Text: 
   buttonText:
   - 
   - 
   - 
   hasChoices: 0
-  nextStates: 01000000010000000100000001000000
+  nextStates: 00000000000000000000000000000000
